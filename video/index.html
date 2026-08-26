@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>DM — Semana do Cliente</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="stage">
+    <div id="bg-glow"></div>
+    <canvas id="particles"></canvas>
+    <div id="persona-layer"></div>
+    <div id="constellation"></div>
+    <div id="bubble-layer"></div>
+    <div id="title-layer"></div>
+    <div id="vignette"></div>
+    <div id="grain"></div>
+
+    <div id="closing-layer">
+      <div id="closing-wipe"></div>
+      <div id="logo-wrap"><img src="assets/logo/dm_logo.png" alt="DM"></div>
+      <div id="closing-text"></div>
+    </div>
+    <div id="final-fade"></div>
+  </div>
+
+  <script src="timeline-data.js"></script>
+  <script>window.TIMELINE_DATA = { PERSONAS, OPENING, BLOCKS, ALL_COMMENTS, EMOTIONAL_LINES, CLOSING_LINES, OPEN_END };</script>
+  <script src="schedule.js"></script>
+  <script src="engine.js"></script>
+</body>
+</html>
